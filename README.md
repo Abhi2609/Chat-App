@@ -1,8 +1,20 @@
-# React + Vite
+# Connectify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a real-time multi-user chat application built using React, Appwrite, and Vite. It allows users to send and delete their own messages in a shared chat environment.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend:** React, React DOM, React Feather, React Router DOM
+- **Backend:** Appwrite
+- **Build Tool:** Vite
+- **Linting:** ESLint with various plugins
+
+## Features
+
+- **Real-time Messaging:** Chat with multiple users in real-time.
+- **User-specific Message Deletion:** Users can delete only their own messages.
+- **User Authentication:** Secure login and registration system to manage user accounts.
+- **Responsive Design:** Optimized for both desktop and mobile devices.
+
+
+
