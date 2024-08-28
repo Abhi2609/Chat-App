@@ -61,7 +61,7 @@ export const AuthProvider = ({children}) => {
             await account.createEmailPasswordSession(credentials.email, credentials.password1);
             let accountDetails = await account.get();
             setUser(accountDetails)
-            navigate("/")
+            navigate("/login")
         }catch(err){
             console.error(err)
         }
